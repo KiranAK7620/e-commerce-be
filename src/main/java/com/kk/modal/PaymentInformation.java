@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 import jakarta.persistence.Column;
 
-public class PaymentInformation { 
+public class PaymentInformation {
 
 	    @Column(name = "cardholder_name")
 	    private String cardholderName;

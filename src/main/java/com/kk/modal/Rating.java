@@ -30,7 +30,7 @@ public class Rating {
 
     @Column(name = "rating")
     private double rating;
-    
+
     private LocalDateTime createdAt;
 
     public Rating() {
@@ -86,7 +86,7 @@ public class Rating {
 		this.rating = rating;
 	}
 
-  
+
 
 
 }
